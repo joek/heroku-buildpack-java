@@ -61,7 +61,7 @@ if [ ! -d .maven ]; then
   echo " done"
 fi
 
-MAVEN_SETTINGS_URL="https://gist.githubusercontent.com/joek/9761185/raw/4357ff1bad144d5d0df0a47886e925383a1c58cb/settings.xml"
+MAVEN_SETTINGS_URL="https://gist.githubusercontent.com/joek/9761185/raw/6fe63f12b7b7870ed48d755dbae290202540535b/settings.xml"
 
 echo -n "-----> Installing settings.xml..."
 if [ -f .m2/settings.xml ]; then
